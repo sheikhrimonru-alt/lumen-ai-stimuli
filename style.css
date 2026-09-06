@@ -164,3 +164,31 @@ footer p {
   height: auto;
   display: block;
 }
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d9e1ec;
+  border-radius: 8px;
+  padding: 6px 10px;
+  background: white;
+  width: 130px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 13px;
+  color: #172033;
+  background: transparent;
+}
+
+.search-box input::placeholder {
+  color: #94a3b8;
+}
+
+.search-icon {
+  font-size: 15px;
+  color: #64748b;
+  margin-left: 6px;
+}
