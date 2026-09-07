@@ -258,3 +258,24 @@ footer {
   text-align: right;
   margin-left: auto;
 }
+.footer-inner {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 24px 32px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  margin: 0;
+  text-align: left;
+}
+
+.footer-right {
+  margin-left: auto;
+  text-align: right;
+}
