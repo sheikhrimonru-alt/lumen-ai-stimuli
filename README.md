@@ -1,1 +1,1 @@
-# lumen-ai-stimuli
+Mechanical × Non-dialogic
