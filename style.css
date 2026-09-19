@@ -164,9 +164,10 @@ footer p {
   color: #64748b;
 }
 .logo img {
-  width: 120px;
+  width: 160px;
   height: auto;
   display: block;
+}
 }
 .search-box {
   display: flex;
