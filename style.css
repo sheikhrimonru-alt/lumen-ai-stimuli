@@ -354,3 +354,19 @@ main {
   margin-bottom: 30px;
   padding: 0;
 }
+/* Enlarge menu options only */
+nav {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Enlarge Log in */
+.actions > span {
+  font-size: 18px;
+}
+
+/* Enlarge official statement/date */
+.meta {
+  font-size: 18px;
+  font-weight: 600;
+}
