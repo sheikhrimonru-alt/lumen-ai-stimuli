@@ -381,3 +381,65 @@ nav {
 .footer-right {
   font-size: 20px;
 }
+/* Footer content: align to left and right edges */
+footer .footer-inner {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 28px 36px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-left {
+  margin: 0;
+  text-align: left;
+}
+
+footer .footer-right {
+  margin-left: auto;
+  text-align: right;
+  font-size: 17px;
+}
+
+/* Footer text size */
+.footer-left strong {
+  font-size: 18px;
+}
+
+.footer-left p {
+  font-size: 16px;
+  margin: 8px 0 0;
+}
+
+/* Transition Support text */
+.support strong {
+  font-size: 15px;
+}
+
+.support p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.support button {
+  font-size: 16px;
+  padding: 14px 22px;
+}
+.support strong {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.support p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 8px 0 0;
+}
+
+.support button {
+  font-size: 16px;
+}
