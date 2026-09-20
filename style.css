@@ -443,3 +443,23 @@ footer .footer-right {
 .support button {
   font-size: 16px;
 }
+footer .footer-inner {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 36px 32px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-right {
+  margin-left: auto;
+  text-align: right;
+}
