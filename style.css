@@ -370,3 +370,18 @@ footer .footer-right {
   font-weight: 500;
   color: #173b63;
 }
+header {
+  position: relative;
+  border-bottom: none;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: #e5eaf0;
+  z-index: 10;
+}
