@@ -22,7 +22,7 @@ header {
 .navbar {
   width: calc(100% - 64px);
   max-width: 1400px;
-  height: 56px;
+  height: 52px;
   margin: 0 auto;
 
   display: flex;
@@ -32,7 +32,7 @@ header {
 }
 
 .logo img {
-  width: 150px;
+  width: 145px;
   height: auto;
   display: block;
 }
@@ -42,9 +42,9 @@ header {
 nav {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 26px;
 
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   white-space: nowrap;
 }
@@ -54,18 +54,18 @@ nav {
 .actions {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 16px;
   white-space: nowrap;
 }
 
 .actions > span {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 /* Search */
 
 .search-box {
-  width: 140px;
+  width: 145px;
   height: 34px;
 
   display: flex;
@@ -75,7 +75,7 @@ nav {
   border-radius: 7px;
   background: #ffffff;
 
-  padding: 0 9px;
+  padding: 0 10px;
 }
 
 .search-icon {
@@ -97,7 +97,7 @@ nav {
   outline: none;
   background: transparent;
 
-  font-size: 13px;
+  font-size: 14px;
   padding: 0;
 }
 
@@ -111,7 +111,7 @@ nav {
   padding: 9px 20px;
   border-radius: 7px;
 
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -124,7 +124,7 @@ main {
   width: calc(100% - 64px);
   max-width: 1400px;
 
-  margin: 12px auto 8px;
+  margin: 6px auto 8px;
   padding: 0;
 }
 
