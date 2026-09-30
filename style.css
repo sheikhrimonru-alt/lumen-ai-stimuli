@@ -31,10 +31,22 @@ header {
   gap: 20px;
 }
 
+.logo {
+  width: 145px;
+  height: 36px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .logo img {
   width: 145px;
   height: auto;
   display: block;
+  transform: scale(1.03);
+  transform-origin: center;
+}
 }
 
 /* Navigation */
