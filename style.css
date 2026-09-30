@@ -492,3 +492,26 @@ article p {
   margin: 0 0 10px 0;
   color: #172033;
 }
+.hero-text {
+  position: absolute;
+  left: 42px;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 650px;
+  z-index: 2;
+}
+
+.hero-text h1 {
+  margin: 0 0 5px 0;
+  font-size: 28px;
+  line-height: 1.1;
+  color: #102a43;
+}
+
+.hero-text p {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.25;
+  font-weight: 500;
+  color: #173b63;
+}
