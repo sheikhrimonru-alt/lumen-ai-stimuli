@@ -123,8 +123,7 @@ nav {
 main {
   width: calc(100% - 64px);
   max-width: 1400px;
-
-  margin: 6px auto 6px;
+  margin: 10px auto 6px;
   padding: 0;
 }
 
@@ -132,10 +131,9 @@ main {
   color: #17468a;
   font-size: 15px;
   font-weight: 600;
-
-  margin: 0 0 5px 0;
+  line-height: 1.25;
+  margin: 0 0 6px 0;
 }
-
 
 /* =========================
    HERO BANNER
