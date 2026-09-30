@@ -50,11 +50,10 @@ header {
 }
 
 /* Navigation */
-
 nav {
   display: flex;
   align-items: center;
-  gap: 26px;
+  gap: 36px;
 
   font-size: 16px;
   font-weight: 500;
