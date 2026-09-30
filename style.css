@@ -333,3 +333,9 @@ footer .footer-right {
   font-size: 13px;
   margin: 3px 0 0;
 }
+article p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0 0 10px 0;
+  color: #172033;
+}
