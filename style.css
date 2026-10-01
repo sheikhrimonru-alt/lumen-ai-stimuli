@@ -242,8 +242,8 @@ main {
 
   transform: translateY(-50%);
 
-  width: 56%;
-  max-width: 480px;
+  width: 78%;
+  max-width: 720px;
 
   z-index: 2;
 }
@@ -265,9 +265,7 @@ main {
   font-weight: 500;
 
   color: #173b63;
-}
 
-.nowrap {
   white-space: nowrap;
 }
 
@@ -430,7 +428,8 @@ footer .footer-right {
 
   .hero-text {
     left: 24px;
-    width: 70%;
+    width: 82%;
+    max-width: none;
   }
 
   .hero-text h1 {
@@ -439,5 +438,6 @@ footer .footer-right {
 
   .hero-text p {
     font-size: 16px;
+    white-space: normal;
   }
 }
