@@ -209,13 +209,12 @@ main {
   height: 100%;
 
   object-fit: cover;
-  object-position: center 50%;
+  object-position: center 52%;
 
   display: block;
 
-  transform: scale(1.08);
+  transform: scale(1.12);
   transform-origin: center;
-}
 }
 
 .hero-banner::before {
@@ -243,8 +242,8 @@ main {
 
   transform: translateY(-50%);
 
-  width: 58%;
-  max-width: 500px;
+  width: 56%;
+  max-width: 480px;
 
   z-index: 2;
 }
@@ -266,6 +265,10 @@ main {
   font-weight: 500;
 
   color: #173b63;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 
@@ -357,7 +360,7 @@ footer {
   width: calc(100% - 40px);
   max-width: 900px;
 
-  margin: 18px auto 24px;
+  margin: 10px auto 20px;
   padding: 0;
 
   background: #f7f8fa;
