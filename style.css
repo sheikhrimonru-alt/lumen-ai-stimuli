@@ -353,18 +353,18 @@ article p {
 /* =========================
    FOOTER
 ========================= */
-
 footer {
   width: calc(100% - 40px);
   max-width: 900px;
 
-  margin: 10px auto 20px;
+  margin: 2px auto 16px;
   padding: 0;
 
   background: #f7f8fa;
 
   border: 1px solid #e5e7eb;
   border-radius: 7px;
+}
 }
 
 footer .footer-inner {
