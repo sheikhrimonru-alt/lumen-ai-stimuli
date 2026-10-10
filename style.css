@@ -259,15 +259,15 @@ main {
 .hero-text p {
   margin: 0;
 
-  font-size: 16px;
-  line-height: 1.35;
+  font-size: 18px;
+  line-height: 1.38;
   font-weight: 500;
 
-  color: #173b63;
+  color: #123a66;
 
   white-space: normal;
 }
-
+}
 
 /* =========================
    ARTICLE
