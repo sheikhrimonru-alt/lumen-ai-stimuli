@@ -188,11 +188,12 @@ main {
 /* =========================
    HERO BANNER
 ========================= */
+
 .hero-banner {
   position: relative;
 
   width: 100%;
-  height: 125px;
+  height: 145px;
 
   margin: 0 0 22px 0;
 
@@ -223,10 +224,10 @@ main {
 
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 0.88) 0%,
-    rgba(255, 255, 255, 0.76) 30%,
-    rgba(255, 255, 255, 0.30) 58%,
-    rgba(255, 255, 255, 0) 78%
+    rgba(255, 255, 255, 0.90) 0%,
+    rgba(255, 255, 255, 0.80) 34%,
+    rgba(255, 255, 255, 0.35) 63%,
+    rgba(255, 255, 255, 0) 82%
   );
 
   z-index: 1;
@@ -240,14 +241,14 @@ main {
 
   transform: translateY(-50%);
 
-  width: 78%;
-  max-width: 720px;
+  width: 72%;
+  max-width: 650px;
 
   z-index: 2;
 }
 
 .hero-text h1 {
-  margin: 0 0 6px 0;
+  margin: 0 0 7px 0;
 
   font-size: 32px;
   line-height: 1.05;
@@ -258,15 +259,14 @@ main {
 .hero-text p {
   margin: 0;
 
-  font-size: 17px;
-  line-height: 1.25;
+  font-size: 16px;
+  line-height: 1.35;
   font-weight: 500;
 
   color: #173b63;
 
-  white-space: nowrap;
+  white-space: normal;
 }
-
 
 
 /* =========================
@@ -352,6 +352,7 @@ article p {
 /* =========================
    FOOTER
 ========================= */
+
 footer {
   width: calc(100% - 40px);
   max-width: 900px;
@@ -407,6 +408,7 @@ footer .footer-right {
   white-space: nowrap;
 }
 
+
 /* =========================
    SMALLER SCREENS
 ========================= */
@@ -431,6 +433,10 @@ footer .footer-right {
     width: calc(100% - 24px);
   }
 
+  .hero-banner {
+    height: 155px;
+  }
+
   .hero-text {
     left: 24px;
     width: 82%;
@@ -443,6 +449,7 @@ footer .footer-right {
 
   .hero-text p {
     font-size: 16px;
+    line-height: 1.35;
     white-space: normal;
   }
 }
