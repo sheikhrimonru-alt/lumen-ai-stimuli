@@ -236,7 +236,7 @@ main {
 .hero-text {
   position: absolute;
 
-  left: 38px;
+  left: 18px;
   top: 50%;
 
   transform: translateY(-50%);
